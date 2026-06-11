@@ -4,7 +4,7 @@ import "./Quiz.css";
 
 function Quiz() {
   const URL = import.meta.env.VITE_API_URL;
-  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+  const apiKey = import.meta.env.GEMINI_API_KEY;
   // console.log(apiKey)
   const [config, setConfig] = useState({
     topic: "",
